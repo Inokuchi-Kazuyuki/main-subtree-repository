@@ -34,3 +34,10 @@ git push -u
 # main-subtree-repository で最新取得
 git subtree pull --prefix sub1-repository git@github.com:Inokuchi-Kazuyuki/sub1-repository main --squash
 ```
+
+## Subtree の削除
+```
+git rm -r sub1-repository
+git commit -m "XXXXX"
+git push -u
+```
